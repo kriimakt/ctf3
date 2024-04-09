@@ -10,6 +10,9 @@ else
         echo "ERREUR."
         exit 1
 fi
+chmod 777 ./configdns -R
+chmod 777 ./recordsdns -R
+chmod 777 ./cachedns -R
 sed -i "208s/192\.168\.15\.200/$IPGOOD/" ./yoyo/accueil.html
 echo "Votre IP : $IPGOOD"
 sleep 2
