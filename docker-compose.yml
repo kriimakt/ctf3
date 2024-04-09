@@ -11,6 +11,8 @@ services:
 #        - bdd2:/var/lib/mysql
   apachephp:
         build: .
+        volumes:
+        - "./yoyo:/var/www/html/CtfYoann"
         ports:
 #        - "80:80"
 #        - "21:21"

@@ -14,7 +14,7 @@ RUN apt-get update && \
 
 RUN chmod 777 /var/ && chmod 777 /var/www/ -R
 COPY CtfAdrar/ /var/www/html/CtfAdrar/
-COPY yoyo/ /var/www/html/CtfYoann/
+#COPY yoyo/ /var/www/html/CtfYoann/
 RUN mkdir /var/www/html/mm/
 COPY vhostyoann.conf /etc/apache2/sites-available
 COPY flagswitch.html /var/www/html/flo/index.html
