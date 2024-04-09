@@ -1,0 +1,18 @@
+$ORIGIN adrar-numerique.lan.
+$TTL    604800
+@       IN      SOA     srvdns.adrar-numerique.lan. root.localhost. (
+                              3         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      srvdns.adrar.lan.
+@       IN      A       192.168.82.205
+srvdns  IN      A       192.168.82.205
+www     IN      A       192.168.82.205
+tym     IN      A       192.168.82.205
+yoann   IN      A       192.168.82.205
+jeff	IN	A	192.168.82.205
+mm	IN	A	192.168.82.205
+flo	IN	A	192.168.82.205
